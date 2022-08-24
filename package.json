@@ -1,0 +1,25 @@
+{
+  "name": "pwa-complete-guide",
+  "version": "1.0.0",
+  "description": "A complete web to PWAs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "keywords": [
+    "pwa",
+    "progressive",
+    "web",
+    "app",
+    "complete",
+    "tutorial"
+  ],
+  "author": "Merve Onaran",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "localbase": "^0.7.5"
+  }
+}

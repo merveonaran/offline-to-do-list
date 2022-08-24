@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" type="image/png" href="/images/to-do-list-16.png"/>
+    <link rel="shortcut icon" type="image/png" href="/images/to-do-list-24.png"/>
+    <link rel="shortcut icon" type="image/png" href="/images/to-do-list-32.png"/>
+    <link rel="shortcut icon" type="image/png" href="/images/to-do-list-64.png"/>
+    <link rel="shortcut icon" type="image/png" href="/images/to-do-list-128.png"/>
+    <link rel="shortcut icon" type="image/png" href="/images/to-do-list-256.png"/>
+    <link rel="shortcut icon" type="image/png" href="/images/to-do-list-512.png"/>
+
+<script>
+        if ('serviceWorker' in navigator) {
+        	window.addEventListener('load', function () {
+        		navigator.serviceWorker.register('sw.js');
+        	});
+        }
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="app-download-container" id="install" style="display:none ;">Butona tıklayarak uygulamayı yükleyebilirsiniz
+            <br>
+            <button id="app-download" style="display:none ;">Uygulamayı yükle</button>
+        </div>
+        <h1 id="title">TO DO LIST</h1>
+         <div>
+            <form action="#">
+                <input type="text" id="inputText">
+                <input type="submit" id="addButton" value="ADD">
+                <input type="submit" id="clearButton" value="CLEAR">
+            </form>
+
+         </div>
+         <div class="to-dos" id="toDoContainer">
+            
+        </div>
+        <div>
+            <button id="deneme">Load Previously Entered Data </button>
+        </div>
+    </div>
+    <script src="https://unpkg.com/localbase/dist/localbase.dev.js"></script>
+    <script>
+      let db = new Localbase('db');
+    </script>
+    <script src="app.js"></script>
+
+</body>
+</html>

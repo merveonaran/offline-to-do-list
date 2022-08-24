@@ -1,0 +1,52 @@
+{
+  "name": "To do list",
+  "short_name": "tdl",
+  "icons": [
+    {
+      "src": "/images/to-do-list-16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "/images/to-do-list-24.png",
+      "type": "image/png",
+      "sizes": "24x24"
+    },
+    {
+      "src": "/images/to-do-list-32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/images/to-do-list-64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "/images/to-do-list-128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+  
+    {
+      "src": "/images/to-do-list-256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+  
+    {
+      "src":"/images/to-do-list-512.png" ,
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fff",
+  "theme_color": "#3f51b5",
+  "description": "A simple Instagram Clone, implementing a lot of PWA love.",
+  "dir": "ltr",
+  "lang": "en-US"
+}

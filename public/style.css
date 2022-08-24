@@ -1,0 +1,109 @@
+body{
+margin: 0px;
+padding: 0px;
+display: flex;
+background-color:gray;
+font-family: 'Lucida Sans';
+}
+
+
+
+.container{
+    position: absolute;
+    text-align: center;
+    height: 80%;
+    width: 400px ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    border: 2px solid white;
+
+}
+.app-download-container{
+    text-align: center;
+    padding: 15px 10px;
+    border-radius: 3px;
+    font-size: 15px;
+    color: white;
+
+
+}
+#app-download{
+    text-align: center;
+    border-radius: 3px;
+    color: blueviolet;
+}
+
+#title{
+    text-align: center;
+    font-size: 50px;
+    color: rebeccapurple;
+}
+
+#inputText{
+    width: 200px;
+    height: 45px;
+    padding-left: 20px;
+    border: 3px solid purple;
+    outline: none;
+    font-size: 25px;
+    border-radius: 15px;
+    vertical-align: middle;
+    color: rebeccapurple;
+}
+
+#addButton{
+    height: 40px;
+    width: 70px;
+    border: 3px solid white;
+    vertical-align: middle;
+    font-size: 20px;
+    outline: none;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+#clearButton{
+    height: 40px;
+    width: 90px;
+    border: 3px solid white;
+    vertical-align: middle;
+    font-size: 20px;
+    outline: none;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+#addButton:active{
+    background-color: darkmagenta;
+}
+
+#clearButton:active{
+    background-color: darkmagenta;
+}
+
+.paragraph-styling{
+    text-align: center;
+    color: rebeccapurple;
+    cursor: pointer;
+    font-size: 35 px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+
+.paragraph-styling-two{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-size: 35 px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
